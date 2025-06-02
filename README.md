@@ -118,9 +118,9 @@ sed 's/\x1B\[[0-9;]*[JKmsu]//g' ../../mcf_coloured.log > ../../mcf_plain.log
 
 The resulting `mcf_plain.log` is exactly what produced the snippet shown in our email (look for `resize_prob` etc.).  Every line containing *double pointer!* marks a true hit.
 
-### 6‑5 Optional one‑click script
+### 6‑5 (Option B) one‑click script
 
-Not Yet Created! (Needs bash that I don't very much!)
+Not Yet Created! Little bit lazy to do it. 
 
 ---
 
