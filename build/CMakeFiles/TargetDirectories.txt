@@ -1,0 +1,6 @@
+/root/llvm/llvm-tutor/HelloWorld Instructions/build/CMakeFiles/intrinsics_gen.dir
+/root/llvm/llvm-tutor/HelloWorld Instructions/build/CMakeFiles/omp_gen.dir
+/root/llvm/llvm-tutor/HelloWorld Instructions/build/CMakeFiles/acc_gen.dir
+/root/llvm/llvm-tutor/HelloWorld Instructions/build/CMakeFiles/HelloWorld.dir
+/root/llvm/llvm-tutor/HelloWorld Instructions/build/CMakeFiles/edit_cache.dir
+/root/llvm/llvm-tutor/HelloWorld Instructions/build/CMakeFiles/rebuild_cache.dir
