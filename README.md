@@ -32,8 +32,6 @@ The pass was developed for Prof. Zhou’s *double‑pointer call‑site* assign
 └─ input_for_instruction.ll  # tiny IR sample (instruction‑operand demo)
 ```
 
-> **Note:** The `build/` folder is shown here for completeness but should be listed in `.gitignore` when you push.
-
 ---
 
 ## 3  Prerequisites
@@ -82,9 +80,7 @@ You should see colourful output and at least one line ending with **`<-- double 
 
 ---
 
-## 6  Running on the MCF benchmark (small real code‑base)
-
-This mirrors the demo shared with Prof. Zhou.
+## 6  Running on the MCF benchmark (small real code‑base for test)
 
 ### 6‑1 Fetch full source
 
@@ -124,13 +120,7 @@ The resulting `mcf_plain.log` is exactly what produced the snippet shown in our 
 
 ### 6‑5 Optional one‑click script
 
-A ready‑made helper lives in `scripts/run_mcf.sh`; invoke it with:
-
-```bash
-./scripts/run_mcf.sh build/libHelloWorld.so
-```
-
-It recompiles IR, runs the pass, generates both coloured & plain logs and highlights the hit count.
+Not Yet Created! (Needs bash that I don't very much!)
 
 ---
 
@@ -145,14 +135,10 @@ It recompiles IR, runs the pass, generates both coloured & plain logs and highli
 
 ## 8  Scaling up to large programs
 
-Once MCF is clean you can replicate the *identical* workflow for any program in Table 1 of the Checked‑C paper:
-
-1. Clone the exact version (e.g. `curl-7.79.1`).
+1. Clone Codes (e.g. `curl-7.79.1`).
 2. Build with `clang-14 -emit-llvm`.
 3. Run `opt-14` with this plugin.
 4. Strip colour & import the plain log into a Google Sheet.
-
-A convenience script `scripts/run_project.sh <path-to-src> <pass-lib>` will appear soon to automate steps 1‑3 for each target.
 
 ---
 
@@ -164,13 +150,7 @@ A convenience script `scripts/run_project.sh <path-to-src> <pass-lib>` will appe
 
 ---
 
-## 10  License
-
-This pass is released under the MIT license (see `LICENSE` file).  Benchmarks retain their original upstream licenses.
-
----
-
-## 11  References
+## 10  References
 
 * **Checked C at Scale** – Zhou *et al.* (OOPSLA 2023) – Table 1 program list
 * LLVM 14 Programmer’s Manual
