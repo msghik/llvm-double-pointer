@@ -138,7 +138,6 @@ Not Yet Created! (Needs bash that I don't very much!)
 1. Clone Codes (e.g. `curl-7.79.1`).
 2. Build with `clang-14 -emit-llvm`.
 3. Run `opt-14` with this plugin.
-4. Strip colour & import the plain log into a Google Sheet.
 
 ---
 
